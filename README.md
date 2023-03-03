@@ -18,7 +18,10 @@ Programmed by elburito1991@gmail.com
 python -m venv venv
 venv\Scripts\activate
 ```
-4. Установите библиотеки: `pip install -r requirements.txt`
+4. Установите библиотеки:
+```
+pip install -r requirements.txt
+```
 5. Создайте базу данных с именем `db`
 6. Инициализируйте и установите миграцию данных в БД
 ```
