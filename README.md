@@ -25,8 +25,6 @@ pip install -r requirements.txt
 5. Создайте базу данных с именем `db`
 6. Инициализируйте и установите миграцию данных в БД
 ```
-flask db init
-flask db migrate
 flask db upgrade
 ```
 7. Запустите приложение `app.py`
